@@ -1,0 +1,7 @@
+name    'witjoh-motd'
+version '1.0.0'
+source 'git@puppet.koewacht.net:modules/koewacht/witjoh-motd.git'
+author 'Johan De Wit'
+license 'Apache License, Version 2.0'
+summary 'A simple module to demonstrate managing /etc/motd as a template'
+description 'This module simply manages /etc/motd as a template, showing interpolation of system attributes'
