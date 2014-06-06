@@ -1,4 +1,4 @@
-name    'witjoh-motd'
+name    'motd'
 version '1.0.0'
 source 'git@puppet.koewacht.net:modules/koewacht/witjoh-motd.git'
 author 'Johan De Wit'
