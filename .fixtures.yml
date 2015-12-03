@@ -1,4 +1,5 @@
----
-  fixtures:
-    symlinks:
-      motd: "#{source_dir}"
+fixtures:
+  repositories:
+    stdlib: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+  symlinks:
+    motd: "#{source_dir}"
