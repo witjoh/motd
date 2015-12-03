@@ -24,19 +24,19 @@ matrix:
   exclude:
     # ruby 1.8.7
     - rvm: 1.8.7
-      env: PUPPET_GEM_VERSION="~> 4.1.0"
+      env: PUPPET_GEM_VERSION="~> 4.1.0" STRICT_VARIABLES=yes
     - rvm: 1.8.7
-      env: PUPPET_GEM_VERSION="~> 4.2.3"
+      env: PUPPET_GEM_VERSION="~> 4.2.3" STRICT_VARIABLES=yes
     - rvm: 1.8.7
-      env: PUPPET_GEM_VERSION="~> 4.3.1"
+      env: PUPPET_GEM_VERSION="~> 4.3.1" STRICT_VARIABLES=yes
     
     # Ruby 2.2.3
     # NameError: uninitialized constant Syck
     - rvm: 2.2.3
-      env: PUPPET_GEM_VERSION="~> 3.5.1"
+      env: PUPPET_GEM_VERSION="~> 3.5.1" STRICT_VARIABLES=yes
     - rvm: 2.2.3
-      env: PUPPET_GEM_VERSION="~> 3.6.2"
+      env: PUPPET_GEM_VERSION="~> 3.6.2" STRICT_VARIABLES=yes
     - rvm: 2.2.3
-      env: PUPPET_GEM_VERSION="~> 3.7.5"
+      env: PUPPET_GEM_VERSION="~> 3.7.5" STRICT_VARIABLES=yes
     - rvm: 2.2.3
-      env: PUPPET_GEM_VERSION="~> 3.8.4"
+      env: PUPPET_GEM_VERSION="~> 3.8.4" STRICT_VARIABLES=yes
